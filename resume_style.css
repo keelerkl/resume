@@ -1,0 +1,40 @@
+h1 { font-family: 'Pacifico' ; 
+	 font-size: 35pt;
+	 color: black;
+	 text-shadow: 1px 1px gray;}
+
+h2 { font-family: 'Pacifico'; 
+	 font-size: 18pt;
+	 color: #302A34;
+	 text-transform: uppercase; 
+	 text-align: left;}
+
+h4 { font-family: 'Pacifico'; 
+	 font-size: 15pt;
+	 text-align: left;
+	 font-weight: bolder;
+	 color: #480C57;}
+
+body {	font-family: 'Pacifico';
+		font-size: 12pt;
+		color: black;
+		background-color: #FCFCFC ;}
+
+ul 	{
+		list-style-type: disc;
+		list-style-position: inside;}
+
+a:link {
+		color: black;}
+
+a:visited {
+			color: purple;}
+
+a:hover {
+			color: green;}
+
+a:active {
+		color: hotpink;}
+
+.dates {text-align: right;}
+
