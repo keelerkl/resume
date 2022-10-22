@@ -1,7 +1,10 @@
+/* AESTHETICS */
+
 h1 { font-family: 'Pacifico' ; 
 	 font-size: 35pt;
-	 color: black;
-	 text-shadow: 1px 1px gray;}
+	 color: darkgray;
+	 text-shadow: 1px 1px rebeccapurple;
+	 text-align: center;}
 
 h2 { font-family: 'Pacifico'; 
 	 font-size: 18pt;
@@ -15,10 +18,15 @@ h4 { font-family: 'Pacifico';
 	 font-weight: bolder;
 	 color: #480C57;}
 
+h5 { font-family: 'Pacifico'; 
+	 font-size: 12pt;
+	 color: darkgray; 
+	 text-align: center;}
+
 body {	font-family: 'Pacifico';
 		font-size: 12pt;
 		color: black;
-		background-color: #FCFCFC ;}
+	}
 
 ul 	{
 		list-style-type: disc;
@@ -28,13 +36,58 @@ a:link {
 		color: black;}
 
 a:visited {
-			color: purple;}
+			color: rebeccapurple;}
 
 a:hover {
-			color: green;}
+			color: darkred;}
 
 a:active {
 		color: hotpink;}
 
+#contact { background-color: black; }
+#nav { background-color: rebeccapurple; }
+#main { background-color: darkgray; }
+#footer { background-color: black; }
+
+#photo img { max-width: 100%; 
+             }
+
 .dates {text-align: right;}
 
+#layout { 
+  display: grid;
+        grid-template-areas:
+         "contact contact contact"
+          "nav main main"
+          "footer footer footer"
+            }
+
+/* SET UP ROWS/COLUMNS USING GRID LINE NUMBERS */
+#contact { 
+		grid-row-start: 1;  
+		grid-row-end: 2;  
+		grid-column-start: 1;  
+		grid-column-end: 4;
+		}
+
+#nav {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	}
+
+#main { 
+		grid-row-start: 2;  
+		grid-row-end: 3;  
+		grid-column-start: 2;  
+		grid-column-end: 4;
+		}
+
+#footer { 
+		grid-row-start: 3;  
+		grid-row-end: 4;  
+		grid-column-start: 1;  
+		grid-column-end: 4;
+		}
+/* END SET UP ROWS/COLUMNS USING GRID LINE NUMBERS */
